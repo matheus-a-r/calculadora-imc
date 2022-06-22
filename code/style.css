@@ -1,0 +1,109 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+.vp{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+.back{
+    width: 50%;
+    max-width: 600px;
+    max-height: 800px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.main li{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 1.5rem;
+    display: block;
+}
+
+.boxes button{
+    border: none;
+    background: var(--primary-color);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+  }
+
+.boxes input{
+    width: 100%;
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.paragrafo-resultado{
+    background-color: aqua;
+    
+}
+
+.bad{
+    background: rgb(182, 80, 80);
+    
+}
+
+.paragrafo-resultado, .bad{
+    padding: 10px 20px;
+}
+
+#resultado{
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+
+
